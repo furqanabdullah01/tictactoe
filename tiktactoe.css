@@ -1,0 +1,25 @@
+
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      #gameboard {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(3, 100px);
+        gap: 4px;
+        background-color: rgb(255, 191, 0);
+      }
+
+      .square {
+        border: 5px solid #0b0b0b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 4rem;
+      }
+    
